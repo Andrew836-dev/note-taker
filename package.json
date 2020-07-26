@@ -1,14 +1,23 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "App for taking notes",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Andrew Gray",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Andrew836-dev/note-taker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Andrew836-dev/note-taker/issues"
+  },
+  "homepage": "https://github.com/Andrew836-dev/note-taker#readme"
 }
